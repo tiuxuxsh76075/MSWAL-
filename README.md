@@ -52,7 +52,7 @@ nnUNetv2_train DATASET_ID 3d_fullres 4 -p nnUNetResEncUNetLPlans
 ```bash
 nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_NAME_OR_ID -c 3d_fullres -f 0 1 2 3 4 -p nnUNetResEncUNetLPlans
 ```
-## Step 6: 
+## Step 6: evaluation
 ```bash
 nnUNetv2_evaluate_folder -djfile path/dataset.json -pfile path/plans.json path/labelsTs path/infersTs
 ```
