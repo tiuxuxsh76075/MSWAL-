@@ -15,8 +15,10 @@ The paper is under review by MICCA 2025.
 ## Stastics of MASWAL 📊
 
 MSWAL comprises **694 high-resolution CT scans** (191,417 slices) with **7 lesion types** (e.g., liver tumors, kidney stones), balanced gender distribution (53.9% male, 46.1% female), and diverse CT contrast phases (non-contrast, arterial, venous, etc.), offering a **fully annotated, multi-class dataset** for precise abdominal lesion segmentation.
-<div align=center><img src="Figs/distribution_and_example (1).png" width="100%" height="100%" /></div>
+<div align=center><img src="Figs/distribution_and_example (1).png" width="95%" height="95%" /></div>
 
+## Examples of MASWAL 📊
+<div align=center><img src="Figs/examples_of_the_results.png" width="95%" height="95%" /></div>
 
 ## Get Started
 Inception nnU-Net in this paper is highly dependent on the preprocessing and architecture of nnU-Net. You can find how nnU-Net works here: [nnU-Net](https://github.com/MIC-DKFZ/nnUNet)
