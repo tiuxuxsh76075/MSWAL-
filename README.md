@@ -57,7 +57,7 @@ MASWAL/
 ```bash
 vim ~/.bashrc
 ```
-You should set the path to the dataset if you are using Linux.
+Set the path to the dataset if you are using Linux.
 ```bash
 export nnUNet_raw='data_fold_path/nnUNet_raw'
 export nnUNet_preprocessed='data_fold_path/nnUNet_preprocessed'
@@ -72,6 +72,7 @@ Now you can preprocess the dataset.
 ```bash
 nnUNetv2_plan_and_preprocess -d DATASET_ID --verify_dataset_integrity -c 3d_fullres -p nnUNetResEncUNetLPlans
 ```
+
 ## Step 3: install dynamic_network_architectures
 ```bash
 git clone https://anonymous.4open.science/r/MSWAL--406B.git
@@ -80,7 +81,7 @@ pip install -e .
 ```
 
 ## Step 4: train the model.
-Before training the model, you should modify network_class_name in 3d_fullres to "dynamic_network_architectures.architectures.inception.InceptionNnunet" in nnUNetResEncUNetLPlans.json and change the relevant batch_size to smaller (dependent on your GPU). Then run the training process. We use  five-fold cross-validation to train the model.
+Modify network_class_name in 3d_fullres to "dynamic_network_architectures.architectures.inception.InceptionNnunet" in nnUNetResEncUNetLPlans.json and change the relevant batch_size to smaller (dependent on your GPU). Then run the training process. We use  five-fold cross-validation to train the model.
 ```bash
 nnUNetv2_train DATASET_ID 3d_fullres 0 -p nnUNetResEncUNetLPlans
 nnUNetv2_train DATASET_ID 3d_fullres 1 -p nnUNetResEncUNetLPlans
