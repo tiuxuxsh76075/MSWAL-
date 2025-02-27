@@ -6,11 +6,11 @@ The paper is under review by MICCA 2025.
 
 ## Key Features of MASWAL 🔑
 
-1. **Comprehensive Coverage**: maswal includes **seven common abdominal lesions** (gallstones, kidney stones, liver tumors, kidney tumors, pancreatic cancer, liver cysts, and kidney cysts), addressing the single-organ focus of existing datasets.  
+- **Comprehensive Coverage**: maswal includes **seven common abdominal lesions** (gallstones, kidney stones, liver tumors, kidney tumors, pancreatic cancer, liver cysts, and kidney cysts), addressing the single-organ focus of existing datasets.  
 
-2. **Fine-Grained Annotation**: Lesions are **specifically categorized by type**, unlike "pan-cancer" labeling, enabling precise diagnostic suggestions and reducing radiologists' workload.  
+- **Fine-Grained Annotation**: Lesions are **specifically categorized by type**, unlike "pan-cancer" labeling, enabling precise diagnostic suggestions and reducing radiologists' workload.  
 
-3. **Full Annotation**: maswal is **fully annotated** with no missing labels, minimizing noise and enhancing model performance compared to partially annotated datasets.
+- **Full Annotation**: maswal is **fully annotated** with no missing labels, minimizing noise and enhancing model performance compared to partially annotated datasets.
 
 ## Stastics of MASWAL
 
