@@ -2,22 +2,20 @@
 
 This repo presents the implementation of the **MSWAL 🩻** 
 
-The paper is under review by MICCA 2025.
+## Key Features of MSWAL 🔑
 
-## Key Features of MASWAL 🔑
-
-- **Comprehensive Coverage**: maswal includes **seven common abdominal lesions** (gallstones, kidney stones, liver tumors, kidney tumors, pancreatic cancer, liver cysts, and kidney cysts), addressing the single-organ focus of existing datasets.  
+- **Comprehensive Coverage**: MSWAL includes **seven common abdominal lesions** (gallstones, kidney stones, liver tumors, kidney tumors, pancreatic cancer, liver cysts, and kidney cysts), addressing the single-organ focus of existing datasets.  
 
 - **Fine-Grained Annotation**: Lesions are **specifically categorized by type**, unlike "pan-cancer" labeling, enabling precise diagnostic suggestions and reducing radiologists' workload.  
 
-- **Full Annotation**: maswal is **fully annotated** with no missing labels, minimizing noise and enhancing model performance compared to partially annotated datasets.
+- **Full Annotation**: MSWAL is **fully annotated** with no missing labels, minimizing noise and enhancing model performance compared to partially annotated datasets.
 
-## Stastics of MASWAL 📊
+## Stastics of MSWAL 📊
 
 MSWAL comprises **694 high-resolution CT scans** (191,417 slices) with **7 lesion types** (e.g., liver tumors, kidney stones), balanced gender distribution (53.9% male, 46.1% female), and diverse CT contrast phases (non-contrast, arterial, venous, etc.), offering a **fully annotated, multi-class dataset** for precise abdominal lesion segmentation.
 <div align=center><img src="Figs/distribution_and_example (1).png" width="95%" height="95%" /></div>
 
-## Examples of MASWAL 📊
+## Examples of MSWAL 📊
 <div align=center><img src="Figs/examples_of_the_results.png" width="95%" height="95%" /></div>
 
 ## Inception nnU-Net structure 🧩
@@ -37,12 +35,12 @@ cd nnUNet
 pip install -e .
 ```
 
-## Step 2: Preprocess the MASWAL.
-Create a folder for MASWAL, which has three sub-folders: nnU-Net_raw; nnUNet_preprocessed; nnUNet_results. More details can be seen in [nnU-Net's dataset_format](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/dataset_format.md). 
+## Step 2: Preprocess the MSWAL.
+Create a folder for MSWAL, which has three sub-folders: nnU-Net_raw; nnUNet_preprocessed; nnUNet_results. More details can be seen in [nnU-Net's dataset_format](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/dataset_format.md). 
 
-### MASWAL Folder Structure
+### MSWAL Folder Structure
 
-MASWAL/  
+Dataset/  
 ├── nnU-Net_raw/  
 │   ├── dataset.json  # Dataset configuration file  
 │   ├── imagesTr/    # Training images  
@@ -54,7 +52,7 @@ MASWAL/
 
 ### Instructions:
 1. Save the dataset in **nnU-Net_raw** following the [nnU-Net dataset format](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/dataset_format.md).  
-2. Modify environment variables to point to the MASWAL folder for nnU-Net processing.
+2. Modify environment variables to point to the MSWAL folder for nnU-Net processing.
 
 
 
