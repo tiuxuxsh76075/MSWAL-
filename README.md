@@ -20,14 +20,13 @@ MSWAL comprises **694 high-resolution CT scans** (191,417 slices) with **7 lesio
 ## Examples of MASWAL 📊
 <div align=center><img src="Figs/examples_of_the_results.png" width="95%" height="95%" /></div>
 
-## Get Started
+## Get Started ⚡️ 
 Inception nnU-Net in this paper is highly dependent on the preprocessing and architecture of nnU-Net. You can find how nnU-Net works here: [nnU-Net](https://github.com/MIC-DKFZ/nnUNet)
 
-Then we will introduce how to run Inception nnU-Net.
+## Step 1: Requirements
 
-## Step 1: install nnU-Net.
-As shown in [nnU-Net installation instructions](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/installation_instructions.md), please install pytorch firstly with python higher than 3.9. Then install nnU-Net.
 ```bash
+Conda create -n IncUnet --python == 3.8
 git clone https://github.com/MIC-DKFZ/nnUNet.git
 cd nnUNet
 pip install -e .
