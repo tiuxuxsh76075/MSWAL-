@@ -13,6 +13,8 @@ The paper is under review by MICCA 2025.
 - **Full Annotation**: maswal is **fully annotated** with no missing labels, minimizing noise and enhancing model performance compared to partially annotated datasets.
 
 ## Stastics of MASWAL
+<div align=center><img src="Figs/distribution_and_example (1).pdf" width="100%" height="100%" /></div>
+
 
 ## Get Started
 Inception nnU-Net in this paper is highly dependent on the preprocessing and architecture of nnU-Net. You can find how nnU-Net works here: [nnU-Net](https://github.com/MIC-DKFZ/nnUNet)
