@@ -1,4 +1,4 @@
-#  MSWAL : 3D Multi-class Segmentation of Whole Abdominal Lesions Dataset
+##  MSWAL : 3D Multi-class Segmentation of Whole Abdominal Lesions Dataset
 
 This repo presents the implementation of the **MSWAL 🩻** 
 
