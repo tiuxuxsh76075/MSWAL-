@@ -4,7 +4,7 @@ This repo presents the implementation of the **MSWAL 🩻**
 
 The paper is under review by MICCA 2025.
 
-## Key Features of MASWAL
+## Key Features of MASWAL 🔑
 
 1. **Comprehensive Coverage**: maswal includes **seven common abdominal lesions** (gallstones, kidney stones, liver tumors, kidney tumors, pancreatic cancer, liver cysts, and kidney cysts), addressing the single-organ focus of existing datasets.  
 
@@ -12,6 +12,7 @@ The paper is under review by MICCA 2025.
 
 3. **Full Annotation**: maswal is **fully annotated** with no missing labels, minimizing noise and enhancing model performance compared to partially annotated datasets.
 
+## Stastics of MASWAL
 
 ## Get Started
 Inception nnU-Net in this paper is highly dependent on the preprocessing and architecture of nnU-Net. You can find how nnU-Net works here: [nnU-Net](https://github.com/MIC-DKFZ/nnUNet)
