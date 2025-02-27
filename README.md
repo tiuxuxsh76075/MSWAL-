@@ -20,7 +20,7 @@ MSWAL comprises **694 high-resolution CT scans** (191,417 slices) with **7 lesio
 ## Examples of MASWAL 📊
 <div align=center><img src="Figs/examples_of_the_results.png" width="95%" height="95%" /></div>
 
-## Inception nnU-Net structure 📊
+## Inception nnU-Net structure 🧩
 
 <div align=center><img src="Figs/model (1).png" width="95%" height="95%" /></div>
 
