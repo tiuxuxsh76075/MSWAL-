@@ -13,6 +13,8 @@ The paper is under review by MICCA 2025.
 - **Full Annotation**: maswal is **fully annotated** with no missing labels, minimizing noise and enhancing model performance compared to partially annotated datasets.
 
 ## Stastics of MASWAL 📊
+
+MSWAL comprises **694 high-resolution CT scans** (191,417 slices) with **7 lesion types** (e.g., liver tumors, kidney stones), balanced gender distribution (53.9% male, 46.1% female), and diverse CT contrast phases (non-contrast, arterial, venous, etc.), offering a **fully annotated, multi-class dataset** for precise abdominal lesion segmentation.
 <div align=center><img src="Figs/distribution_and_example (1).png" width="100%" height="100%" /></div>
 
 
