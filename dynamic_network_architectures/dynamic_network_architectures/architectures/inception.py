@@ -511,7 +511,7 @@ class StackedResidualBlocks(nn.Module):
         :param dropout_op_kwargs:
         :param nonlin:
         :param nonlin_kwargs:
-        :param block: BasicBlockD or BottleneckD
+        :param block: MiniInception or BottleneckD
         :param bottleneck_channels: if block is BottleneckD then we need to know the number of bottleneck features.
         Bottleneck will use first 1x1 conv to reduce input to bottleneck features, then run the nxn (see kernel_size)
         conv on that (bottleneck -> bottleneck). Finally the output will be projected back to output_channels
@@ -523,7 +523,7 @@ class StackedResidualBlocks(nn.Module):
         """
         super().__init__()
         assert n_blocks > 0, 'n_blocks must be > 0'
-        assert block in [MiniInception, BottleneckD], 'block must be BasicBlockD or BottleneckD'
+        assert block in [MiniInception, BottleneckD], 'block must be MinInception or BottleneckD'
         if not isinstance(output_channels, (tuple, list)):
             output_channels = [output_channels] * n_blocks
         if not isinstance(bottleneck_channels, (tuple, list)):
