@@ -29,7 +29,7 @@ Inception nnU-Net in this paper is highly dependent on the preprocessing and arc
 ## Step 1: Requirements.
 
 ```bash
-Conda create -n IncUnet --python == 3.8
+Conda create -n IncUnet --python == 3.9
 git clone https://github.com/MIC-DKFZ/nnUNet.git
 cd nnUNet
 pip install -e .
