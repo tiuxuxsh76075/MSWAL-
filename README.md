@@ -1,8 +1,8 @@
 ##  MSWAL : 3D Multi-class Segmentation of Whole Abdominal Lesions Dataset
 
-Paper on arxiv: https://arxiv.org/pdf/2503.13560
+📖 Paper on arxiv: https://arxiv.org/pdf/2503.13560
 
-Dataset on huggingface(only training dataset has been released): https://huggingface.co/datasets/zhaodongwu/MSWAL/tree/main 
+💽 Dataset on huggingface(only training dataset has been released): https://huggingface.co/datasets/zhaodongwu/MSWAL/tree/main 
 
 This repo presents the implementation of the **MSWAL 🩻** 
 
